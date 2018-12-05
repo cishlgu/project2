@@ -1,0 +1,67 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+<form>
+
+<select name="color">
+
+<option value="yellow">Yellow</option>
+<option value="white">Red</option>
+<option value="purple">White</option>
+<option value="orange">Orange</option>
+<option value="red">Red</option>
+<option value="burgundy">Burgundy</option>
+<option value="brightred">Bright Red</option>
+<option value="pink">Pink</option>
+<option value="lavendar">Lavendar</option>
+<option value="purple">Purple</option>
+<option value="darkblue">Dark Blue</option>
+<option value="blue">Blue</option>
+<option name="lightblue" value="lightblue">Light Blue</option>
+<option value="lightgrey">Light Grey</option>
+<option value="limegreen">Lime Green</option>
+<option value="green">Green</option>
+<option value="darkgreen">Dark Green</option>
+<option value="MintGreen">Mint Green</option>
+<option value="forestgreen">Forest Green</option>
+<option value="Navy">Navy</option>
+<option value="black">Black</option>
+
+
+</select>
+
+</form>
+
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"
+        method="post">
+    <!-- Identify your business so that you can collect the payments. -->
+    <input type="hidden" name="business" value="kerry@ivasprinting.com">
+
+    <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+    <input type="hidden" name="cmd" value="_cart">
+    <input type="hidden" name="add" value="1">
+
+    <!-- Specify details about the item that buyers will purchase. -->
+    <input type="hidden" name="item_name" value="Other">
+    <input type="hidden" name="amount" value="0.74">
+    <input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="lightblue" value="lightblue">
+
+    <!-- Display the payment button. -->
+    <input type="image" name="submit"
+        src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+        alt="Add to Cart">
+    <img alt="" width="1" height="1"
+        src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+</form>
+
+
+</body>
+
+
+</html>
